@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3AF95D3E-A883-4B34-9190-27640C46E87A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project1</RootNamespace>
+    <AssemblyName>Project1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\controllers.js" />
+    <Content Include="js\directives.js" />
+    <Content Include="js\routes.js" />
+    <Content Include="js\services.js" />
+    <Content Include="lib\ionicuirouter\ionicUIRouter.js" />
+    <Content Include="lib\ionic\css\ionic.css" />
+    <Content Include="lib\ionic\css\ionic.min.css" />
+    <Content Include="lib\ionic\fonts\ionicons.svg" />
+    <Content Include="lib\ionic\js\angular-ui\angular-ui-router.js" />
+    <Content Include="lib\ionic\js\angular-ui\angular-ui-router.min.js" />
+    <Content Include="lib\ionic\js\angular\angular-animate.js" />
+    <Content Include="lib\ionic\js\angular\angular-animate.min.js" />
+    <Content Include="lib\ionic\js\angular\angular-resource.js" />
+    <Content Include="lib\ionic\js\angular\angular-resource.min.js" />
+    <Content Include="lib\ionic\js\angular\angular-sanitize.js" />
+    <Content Include="lib\ionic\js\angular\angular-sanitize.min.js" />
+    <Content Include="lib\ionic\js\angular\angular.js" />
+    <Content Include="lib\ionic\js\angular\angular.min.js" />
+    <Content Include="lib\ionic\js\ionic-angular.js" />
+    <Content Include="lib\ionic\js\ionic-angular.min.js" />
+    <Content Include="lib\ionic\js\ionic.bundle.js" />
+    <Content Include="lib\ionic\js\ionic.bundle.min.js" />
+    <Content Include="lib\ionic\js\ionic.js" />
+    <Content Include="lib\ionic\js\ionic.min.js" />
+    <Content Include="templates\cart.html" />
+    <Content Include="templates\cloud.html" />
+    <Content Include="templates\home.html" />
+    <Content Include="templates\menu.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\ionic\fonts\ionicons.eot" />
+    <None Include="lib\ionic\fonts\ionicons.ttf" />
+    <None Include="lib\ionic\fonts\ionicons.woff" />
+    <None Include="lib\ionic\scss\ionic.scss" />
+    <None Include="lib\ionic\scss\ionicons\ionicons.scss" />
+    <None Include="lib\ionic\scss\ionicons\_ionicons-font.scss" />
+    <None Include="lib\ionic\scss\ionicons\_ionicons-icons.scss" />
+    <None Include="lib\ionic\scss\ionicons\_ionicons-variables.scss" />
+    <None Include="lib\ionic\scss\_action-sheet.scss" />
+    <None Include="lib\ionic\scss\_animations.scss" />
+    <None Include="lib\ionic\scss\_backdrop.scss" />
+    <None Include="lib\ionic\scss\_badge.scss" />
+    <None Include="lib\ionic\scss\_bar.scss" />
+    <None Include="lib\ionic\scss\_button-bar.scss" />
+    <None Include="lib\ionic\scss\_button.scss" />
+    <None Include="lib\ionic\scss\_checkbox.scss" />
+    <None Include="lib\ionic\scss\_form.scss" />
+    <None Include="lib\ionic\scss\_grid.scss" />
+    <None Include="lib\ionic\scss\_items.scss" />
+    <None Include="lib\ionic\scss\_list.scss" />
+    <None Include="lib\ionic\scss\_loading.scss" />
+    <None Include="lib\ionic\scss\_menu.scss" />
+    <None Include="lib\ionic\scss\_mixins.scss" />
+    <None Include="lib\ionic\scss\_modal.scss" />
+    <None Include="lib\ionic\scss\_platform.scss" />
+    <None Include="lib\ionic\scss\_popover.scss" />
+    <None Include="lib\ionic\scss\_popup.scss" />
+    <None Include="lib\ionic\scss\_progress.scss" />
+    <None Include="lib\ionic\scss\_radio.scss" />
+    <None Include="lib\ionic\scss\_range.scss" />
+    <None Include="lib\ionic\scss\_refresher.scss" />
+    <None Include="lib\ionic\scss\_reset.scss" />
+    <None Include="lib\ionic\scss\_scaffolding.scss" />
+    <None Include="lib\ionic\scss\_select.scss" />
+    <None Include="lib\ionic\scss\_slide-box.scss" />
+    <None Include="lib\ionic\scss\_slides.scss" />
+    <None Include="lib\ionic\scss\_spinner.scss" />
+    <None Include="lib\ionic\scss\_tabs.scss" />
+    <None Include="lib\ionic\scss\_toggle.scss" />
+    <None Include="lib\ionic\scss\_transitions.scss" />
+    <None Include="lib\ionic\scss\_type.scss" />
+    <None Include="lib\ionic\scss\_util.scss" />
+    <None Include="lib\ionic\scss\_variables.scss" />
+    <None Include="lib\ionic\version.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
